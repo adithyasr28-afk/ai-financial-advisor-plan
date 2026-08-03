@@ -1,0 +1,68 @@
+# Progress
+
+- [x] Phase 0 — Planning and infrastructure scaffold
+  - [x] PRD, architecture, and state files created
+  - [x] Frontend placeholder boots and renders
+  - [x] FastAPI `/health` returns 200
+  - [x] PostgreSQL/pgvector and Redis Compose services start cleanly
+  - [x] CI workflow is valid; local CI-equivalent checks are green
+- [x] Phase 1 — Data ingestion
+  - [x] Yahoo Finance fixture, typed connector, and passing fixture test
+  - [x] Alpha Vantage fixture, typed connector, and passing fixture test
+  - [x] Finnhub live-success smoke test passes with configured API token
+  - [x] SEC EDGAR fixture, typed connector, and passing fixture test
+  - [x] FRED fixture, typed connector, and passing fixture test
+  - [x] RSS news fixture, typed connector, and passing fixture test
+  - [x] Validation rejects malformed OHLC data
+  - [x] Live scheduler run inserted 26 records; row count verified with SQL (51 cumulative rows)
+  - [x] Historical ingestion storage documented in ARCHITECTURE.md
+- [x] Phase 2 — Data engineering
+  - [x] Pure cleaning transforms cover missing rows, split adjustment, currency/timestamp normalization, and holiday gaps
+  - [x] Return, volatility, and financial-ratio features implemented with hand-verified tests
+  - [x] Reproducible SHA-256 dataset manifest generated under data_versions/
+- [x] Phase 3 — Classical ML
+  - [x] Chronological 60/20/20 split utility implemented and tested before model code
+  - [x] Baseline and target metrics recorded for forecasting, sentiment, anomaly detection, company similarity, and risk prediction
+  - [x] Model artifacts and per-model metrics.json files generated under models/
+  - [x] No-lookahead split logic tested; underpowered/non-beating models have documented hold decisions
+- [x] Phase 4 — Finance RAG
+  - [x] Three real SEC annual reports downloaded, chunked, and embedded
+  - [x] 512 chunks stored and retrieved through PostgreSQL/pgvector
+  - [x] Five real queries evaluated at precision@1 = 4/5 (0.80)
+  - [x] Citation-backed response contract refuses when no source chunk is retrieved
+- [x] Phase 5 — Multi-agent system
+  - [x] Seven specialist agents and Report Writer run against real Phase 1–4 state
+  - [x] Orchestrator routes distinct query types to specialist subsets
+  - [x] Conflict-resolution test surfaces disagreement instead of silently selecting a stance
+  - [x] Real sample output saved under agents/samples.json
+- [x] Phase 6 — Explainability
+  - [x] Shared Pydantic schema (AgentResponse) with evidence, confidence, sources, assumptions, limitations enforced across all 8 agents
+  - [x] Test fails if any required explainability field is missing or empty on real agent response
+  - [x] Confidence scores computed from real signals (retrieval similarity, sentiment scores, verified quotes) — not static placeholders
+  - [x] Real sample output updated with explainability fields under agents/samples.json
+- [x] Phase 7 — Frontend SaaS
+  - [x] Dashboard renders live market data, news, macro from backend
+  - [x] Company Analysis runs multi-agent orchestration via /orchestrate
+  - [x] Portfolio tracks holdings with live market marks
+  - [x] News page displays real RSS feed from backend
+  - [x] Watchlists manages custom lists with live quotes
+  - [x] AI Chat streams real agent responses end-to-end
+  - [x] Alerts page built (UI; evaluation requires scheduler)
+  - [x] Backtesting page built (UI; mock results; real engine needs endpoint)
+  - [x] All pages wired to live backend; no mock data once endpoint exists
+  - [x] Frontend builds and dev server runs
+- [x] Phase 8 — Evaluation
+  - [x] Hallucination rate: 5.77% average (20 samples, citation validity check)
+  - [x] Retrieval precision@3: 100% (5 test queries, all hit expected source)
+  - [x] Latency: mean 30.76ms, median 15.66ms (10 runs)
+  - [x] Token cost (estimated): avg 1,550 tokens, $0.00093 per query (gpt-4o-mini pricing)
+  - [x] Forecast accuracy: insufficient data for evaluation (fixture too small)
+  - [x] Agent agreement: 71.4% (7/10 queries with stances; 5 agree, 2 disagree)
+  - [x] All metrics have scripts + real recorded runs in EVAL_RESULTS.md
+- [x] Phase 9 — Deployment
+  - [x] GitHub Actions CI/CD workflow (build, test, docker push, deploy triggers)
+  - [x] Production Docker Compose (postgres, redis, backend, frontend, prometheus, grafana)
+  - [x] Prometheus metrics endpoint (/metrics) with HTTP, orchestration, agent confidence metrics
+  - [x] Grafana dashboard with 6 panels (request rate, latency, orchestration rate/latency, agent confidence, connections)
+  - [x] Database init script with pgvector, tables for ingestion, RAG, market, macro, news
+  - [x] Multi-stage Dockerfiles for backend (port 8001) and frontend (standalone output)

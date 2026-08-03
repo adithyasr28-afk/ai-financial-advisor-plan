@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "mae": 4.42999267578125,
+    "rmse": 4.42999267578125
+  },
+  "metric": "MAE/RMSE",
+  "sample_count": 5,
+  "ship_decision": "hold: five observations are insufficient for a production forecast",
+  "target": {
+    "mae": 12.06500244140625,
+    "rmse": 12.06500244140625
+  },
+  "task": "forecasting"
+}

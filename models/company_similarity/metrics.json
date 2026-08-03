@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "rate": 0.21428571428571427
+  },
+  "metric": "top-1 shared-entity rate",
+  "sample_count": 14,
+  "ship_decision": "hold: RSS-title corpus is not a validated company-document similarity benchmark",
+  "target": {
+    "rate": 0.42857142857142855
+  },
+  "task": "company_similarity"
+}

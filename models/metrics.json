@@ -1,0 +1,66 @@
+{
+  "anomaly_detection": {
+    "baseline": {
+      "f1": 0.0
+    },
+    "metric": "F1",
+    "sample_count": 4,
+    "ship_decision": "hold: four return observations cannot establish a reliable anomaly threshold",
+    "target": {
+      "f1": 0.0
+    },
+    "task": "anomaly_detection"
+  },
+  "company_similarity": {
+    "baseline": {
+      "rate": 0.21428571428571427
+    },
+    "metric": "top-1 shared-entity rate",
+    "sample_count": 14,
+    "ship_decision": "hold: RSS-title corpus is not a validated company-document similarity benchmark",
+    "target": {
+      "rate": 0.42857142857142855
+    },
+    "task": "company_similarity"
+  },
+  "forecasting": {
+    "baseline": {
+      "mae": 4.42999267578125,
+      "rmse": 4.42999267578125
+    },
+    "metric": "MAE/RMSE",
+    "sample_count": 5,
+    "ship_decision": "hold: five observations are insufficient for a production forecast",
+    "target": {
+      "mae": 12.06500244140625,
+      "rmse": 12.06500244140625
+    },
+    "task": "forecasting"
+  },
+  "risk_prediction": {
+    "baseline": {
+      "f1": 0.0
+    },
+    "metric": "F1/ROC-AUC",
+    "sample_count": 3,
+    "ship_decision": "hold: test labels are too few for a reliable risk model",
+    "target": {
+      "f1": 0.0,
+      "roc_auc": null
+    },
+    "task": "risk_prediction"
+  },
+  "sentiment": {
+    "baseline": {
+      "f1": 0.0
+    },
+    "label_source": "weak keyword labels from real RSS titles",
+    "metric": "weighted F1",
+    "sample_count": 20,
+    "ship_decision": "hold: labels are weakly supervised and require human-labeled news before production use",
+    "target": {
+      "f1": 0.25
+    },
+    "task": "sentiment"
+  }
+}

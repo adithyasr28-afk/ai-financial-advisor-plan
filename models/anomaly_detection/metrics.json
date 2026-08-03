@@ -1,0 +1,12 @@
+{
+  "baseline": {
+    "f1": 0.0
+  },
+  "metric": "F1",
+  "sample_count": 4,
+  "ship_decision": "hold: four return observations cannot establish a reliable anomaly threshold",
+  "target": {
+    "f1": 0.0
+  },
+  "task": "anomaly_detection"
+}

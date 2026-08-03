@@ -1,0 +1,1204 @@
+{
+  "news_intelligence": {
+    "query": "news intelligence",
+    "agents": [
+      "news_intelligence"
+    ],
+    "results": [
+      {
+        "agent": "news_intelligence",
+        "query": "news intelligence",
+        "summary": "Analyzed 5 headlines. Filtered for: market-wide.",
+        "evidence": [
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Can Qualcomm secure a 'tiny slice' of the data center pie?",
+            "link": "https://finance.yahoo.com/video/can-qualcomm-secure-a-tiny-slice-of-the-data-center-pie-163320789.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "qualcomm"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Ford Just Delivered Bad News for Tesla Investors",
+            "link": "https://www.fool.com/investing/2026/07/29/ford-just-delivered-bad-news-for-tesla-investors/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": -1,
+            "entities": [
+              "ford",
+              "tesla"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple says UK App Store proposal amounts to price regulation",
+            "link": "https://finance.yahoo.com/technology/articles/apple-says-uk-app-store-154808227.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple Stock Could Close With $5 Trillion Market Value for First Time. Will It Get There?",
+            "link": "https://finance.yahoo.com/m/b3eef45b-5a17-3fdc-b1b7-ec54bf673ee0/apple-stock-could-close-with.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple's New Leasing Plan Just Launched -- Here's the Stock That Could Be the Biggest Winner",
+            "link": "https://www.fool.com/investing/2026/07/29/apples-new-leasing-plan-just-launched-heres-the-st/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "bullish",
+        "confidence": 0.56,
+        "sources": [
+          "rss"
+        ],
+        "assumptions": [
+          "Sentiment model trained on financial headlines generalizes to current news"
+        ],
+        "limitations": [
+          "Sentiment model trained on limited labeled data; not production-ready"
+        ],
+        "generated_at": "2026-07-31T17:27:43.486286+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "financial_statement": {
+    "query": "financial statement",
+    "agents": [
+      "financial_statement"
+    ],
+    "results": [
+      {
+        "agent": "financial_statement",
+        "query": "financial statement",
+        "summary": "Retrieved filing evidence for the financial-statement question.",
+        "evidence": [
+          {
+            "source": "apple_2025_10k.htm",
+            "chunk_id": "apple_2025_10k.htm:111",
+            "source_file": "apple_2025_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "0,907 51,211 39,686 Proceeds from sales of marketable securities 12,890 11,135 5,828 Payments for acquisition of property, plant and equipment ( 12,715 ) ( 9,447 ) ( 10,959 ) Other ( 1,480 ) ( 1,308 ) ( 1,337 ) Cash generated by investing activities 15,195 2,935 3,705 Financing activities: Payments ",
+            "metrics": null
+          },
+          {
+            "source": "apple_2023_10k.htm",
+            "chunk_id": "apple_2023_10k.htm:105",
+            "source_file": "apple_2023_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "s ( 108,488 ) ( 110,749 ) ( 93,353 ) Increase/(Decrease) in cash, cash equivalents and restricted cash 5,760 ( 10,952 ) ( 3,860 ) Cash, cash equivalents and restricted cash, ending balances $ 30,737 $ 24,977 $ 35,929 Supplemental cash flow disclosure: Cash paid for income taxes, net $ 18,679 $ 19,57",
+            "metrics": null
+          },
+          {
+            "source": "apple_2025_10k.htm",
+            "chunk_id": "apple_2025_10k.htm:110",
+            "source_file": "apple_2025_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "$ 1.02 $ 0.98 $ 0.94 See accompanying Notes to Consolidated Financial Statements. Apple Inc. | 2025 Form 10-K | 32 Apple Inc. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) Years ended September 27, 2025 September 28, 2024 September 30, 2023 Cash, cash equivalents, and restricted cash and cash ",
+            "metrics": null
+          }
+        ],
+        "stance": null,
+        "confidence": 0.5107155150601574,
+        "sources": [
+          "sec_filing"
+        ],
+        "assumptions": [
+          "Filing chunks accurately represent the company's financial position"
+        ],
+        "limitations": [
+          "Only 3 annual reports ingested; retrieval may miss context across sections"
+        ],
+        "generated_at": "2026-07-31T17:27:43.518734+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "valuation": {
+    "query": "valuation",
+    "agents": [
+      "valuation"
+    ],
+    "results": [
+      {
+        "agent": "valuation",
+        "query": "valuation",
+        "summary": "The verified Alpha Vantage quote for IBM is 227.55 USD; this is market evidence, not a fair-value estimate.",
+        "evidence": [
+          {
+            "source": "alpha_vantage",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "IBM",
+            "price": 227.55,
+            "trading_day": "2026-07-28",
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "neutral",
+        "confidence": 0.7,
+        "sources": [
+          "alpha_vantage"
+        ],
+        "assumptions": [
+          "Current market price reflects available information"
+        ],
+        "limitations": [
+          "Single quote snapshot; no DCF, comparables, or intrinsic valuation performed"
+        ],
+        "generated_at": "2026-07-31T17:27:43.518734+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "risk": {
+    "query": "risk",
+    "agents": [
+      "risk"
+    ],
+    "results": [
+      {
+        "agent": "risk",
+        "query": "risk",
+        "summary": "Risk model artifact is available, but its measured test sample is too small for production use.",
+        "evidence": [
+          {
+            "source": "models/risk_prediction/metrics.json",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": {
+              "baseline": {
+                "f1": 0.0
+              },
+              "metric": "F1/ROC-AUC",
+              "sample_count": 3,
+              "ship_decision": "hold: test labels are too few for a reliable risk model",
+              "target": {
+                "f1": 0.0,
+                "roc_auc": null
+              },
+              "task": "risk_prediction"
+            }
+          }
+        ],
+        "stance": "hold",
+        "confidence": 0.4,
+        "sources": [
+          "ml_model"
+        ],
+        "assumptions": [
+          "Historical risk patterns persist; model features capture relevant risk factors"
+        ],
+        "limitations": [
+          "Test sample size of 3; F1=0.0; not suitable for production decisions"
+        ],
+        "generated_at": "2026-07-31T17:27:43.519732+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "technical_analysis": {
+    "query": "technical analysis",
+    "agents": [
+      "technical_analysis"
+    ],
+    "results": [
+      {
+        "agent": "technical_analysis",
+        "query": "technical analysis",
+        "summary": "AAPL moved 6.12% across the verified 5-bar sample.",
+        "evidence": [
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": null,
+            "trading_day": null,
+            "first_close": 321.6600036621094,
+            "last_close": 341.3399963378906,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "uptrend",
+        "confidence": 0.6,
+        "sources": [
+          "yahoo_finance"
+        ],
+        "assumptions": [
+          "Price trend in sample period indicates near-term direction"
+        ],
+        "limitations": [
+          "Only 5 bars in fixture; no volume, indicators, or multi-timeframe analysis"
+        ],
+        "generated_at": "2026-07-31T17:27:43.519732+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "portfolio": {
+    "query": "portfolio",
+    "agents": [
+      "portfolio"
+    ],
+    "results": [
+      {
+        "agent": "portfolio",
+        "query": "portfolio",
+        "summary": "Portfolio context contains a verified AAPL market mark of 341.34 USD; holdings and weights were not supplied.",
+        "evidence": [
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": 341.3399963378906,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "insufficient_data",
+        "confidence": 0.5,
+        "sources": [
+          "yahoo_finance"
+        ],
+        "assumptions": [
+          "Market mark reflects current valuation of held securities"
+        ],
+        "limitations": [
+          "No holdings, weights, or cost basis provided; cannot compute portfolio metrics"
+        ],
+        "generated_at": "2026-07-31T17:27:43.519732+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "macro_economy": {
+    "query": "macro economy",
+    "agents": [
+      "macro_economy"
+    ],
+    "results": [
+      {
+        "agent": "macro_economy",
+        "query": "macro economy",
+        "summary": "The verified FRED GDP observation is 31865.721 on 2026-01-01.",
+        "evidence": [
+          {
+            "source": "fred",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": "GDP",
+            "observation_date": "2026-01-01",
+            "value": 31865.721,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": null,
+        "confidence": 0.8,
+        "sources": [
+          "fred"
+        ],
+        "assumptions": [
+          "FRED series accurately represents the macroeconomic indicator"
+        ],
+        "limitations": [
+          "Single series observation; no trend, forecast, or cross-indicator analysis"
+        ],
+        "generated_at": "2026-07-31T17:27:43.519732+00:00"
+      }
+    ],
+    "disagreements": []
+  },
+  "comprehensive report": {
+    "query": "comprehensive report",
+    "agents": [
+      "news_intelligence",
+      "financial_statement",
+      "valuation",
+      "risk",
+      "technical_analysis",
+      "portfolio",
+      "macro_economy",
+      "report_writer"
+    ],
+    "results": [
+      {
+        "agent": "news_intelligence",
+        "query": "comprehensive report",
+        "summary": "Analyzed 5 headlines. Filtered for: market-wide.",
+        "evidence": [
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Can Qualcomm secure a 'tiny slice' of the data center pie?",
+            "link": "https://finance.yahoo.com/video/can-qualcomm-secure-a-tiny-slice-of-the-data-center-pie-163320789.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "qualcomm"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Ford Just Delivered Bad News for Tesla Investors",
+            "link": "https://www.fool.com/investing/2026/07/29/ford-just-delivered-bad-news-for-tesla-investors/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": -1,
+            "entities": [
+              "ford",
+              "tesla"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple says UK App Store proposal amounts to price regulation",
+            "link": "https://finance.yahoo.com/technology/articles/apple-says-uk-app-store-154808227.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple Stock Could Close With $5 Trillion Market Value for First Time. Will It Get There?",
+            "link": "https://finance.yahoo.com/m/b3eef45b-5a17-3fdc-b1b7-ec54bf673ee0/apple-stock-could-close-with.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple's New Leasing Plan Just Launched -- Here's the Stock That Could Be the Biggest Winner",
+            "link": "https://www.fool.com/investing/2026/07/29/apples-new-leasing-plan-just-launched-heres-the-st/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "bullish",
+        "confidence": 0.56,
+        "sources": [
+          "rss"
+        ],
+        "assumptions": [
+          "Sentiment model trained on financial headlines generalizes to current news"
+        ],
+        "limitations": [
+          "Sentiment model trained on limited labeled data; not production-ready"
+        ],
+        "generated_at": "2026-07-31T17:27:43.523218+00:00"
+      },
+      {
+        "agent": "financial_statement",
+        "query": "comprehensive report",
+        "summary": "Retrieved filing evidence for the financial-statement question.",
+        "evidence": [
+          {
+            "source": "apple_2023_10k.htm",
+            "chunk_id": "apple_2023_10k.htm:163",
+            "source_file": "apple_2023_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "Indemnification Agreement between the Registrant and each director and executive officer of the Registrant. 10-Q 10.2 6/27/09 10.3* Apple Inc. Non-Employee Director Stock Plan, as amended November 9, 2021. 10-Q 10.1 12/25/21 10.4* Apple Inc. 2014 Employee Stock Plan, as amended and restated as of Oc",
+            "metrics": null
+          },
+          {
+            "source": "apple_2024_10k.htm",
+            "chunk_id": "apple_2024_10k.htm:166",
+            "source_file": "apple_2024_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "ck Plan, as amended November 9, 2021. 10-Q 10.1 12/25/21 10.4* Apple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, 2017. 10-K 10.8 9/30/17 10.5* Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 26, 2017. 10-K 10.20 9/30/",
+            "metrics": null
+          },
+          {
+            "source": "apple_2023_10k.htm",
+            "chunk_id": "apple_2023_10k.htm:164",
+            "source_file": "apple_2023_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "under 2014 Employee Stock Plan effective as of August 18, 2020. 10-K 10.16 9/26/20 10.12* Form of Performance Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020. 10-K 10.17 9/26/20 10.13* Form of CEO Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff",
+            "metrics": null
+          }
+        ],
+        "stance": null,
+        "confidence": 0.49625460792346643,
+        "sources": [
+          "sec_filing"
+        ],
+        "assumptions": [
+          "Filing chunks accurately represent the company's financial position"
+        ],
+        "limitations": [
+          "Only 3 annual reports ingested; retrieval may miss context across sections"
+        ],
+        "generated_at": "2026-07-31T17:27:43.558617+00:00"
+      },
+      {
+        "agent": "valuation",
+        "query": "comprehensive report",
+        "summary": "The verified Alpha Vantage quote for IBM is 227.55 USD; this is market evidence, not a fair-value estimate.",
+        "evidence": [
+          {
+            "source": "alpha_vantage",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "IBM",
+            "price": 227.55,
+            "trading_day": "2026-07-28",
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "neutral",
+        "confidence": 0.7,
+        "sources": [
+          "alpha_vantage"
+        ],
+        "assumptions": [
+          "Current market price reflects available information"
+        ],
+        "limitations": [
+          "Single quote snapshot; no DCF, comparables, or intrinsic valuation performed"
+        ],
+        "generated_at": "2026-07-31T17:27:43.558617+00:00"
+      },
+      {
+        "agent": "risk",
+        "query": "comprehensive report",
+        "summary": "Risk model artifact is available, but its measured test sample is too small for production use.",
+        "evidence": [
+          {
+            "source": "models/risk_prediction/metrics.json",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": {
+              "baseline": {
+                "f1": 0.0
+              },
+              "metric": "F1/ROC-AUC",
+              "sample_count": 3,
+              "ship_decision": "hold: test labels are too few for a reliable risk model",
+              "target": {
+                "f1": 0.0,
+                "roc_auc": null
+              },
+              "task": "risk_prediction"
+            }
+          }
+        ],
+        "stance": "hold",
+        "confidence": 0.4,
+        "sources": [
+          "ml_model"
+        ],
+        "assumptions": [
+          "Historical risk patterns persist; model features capture relevant risk factors"
+        ],
+        "limitations": [
+          "Test sample size of 3; F1=0.0; not suitable for production decisions"
+        ],
+        "generated_at": "2026-07-31T17:27:43.559615+00:00"
+      },
+      {
+        "agent": "technical_analysis",
+        "query": "comprehensive report",
+        "summary": "AAPL moved 6.12% across the verified 5-bar sample.",
+        "evidence": [
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": null,
+            "trading_day": null,
+            "first_close": 321.6600036621094,
+            "last_close": 341.3399963378906,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "uptrend",
+        "confidence": 0.6,
+        "sources": [
+          "yahoo_finance"
+        ],
+        "assumptions": [
+          "Price trend in sample period indicates near-term direction"
+        ],
+        "limitations": [
+          "Only 5 bars in fixture; no volume, indicators, or multi-timeframe analysis"
+        ],
+        "generated_at": "2026-07-31T17:27:43.559615+00:00"
+      },
+      {
+        "agent": "portfolio",
+        "query": "comprehensive report",
+        "summary": "Portfolio context contains a verified AAPL market mark of 341.34 USD; holdings and weights were not supplied.",
+        "evidence": [
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": 341.3399963378906,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "insufficient_data",
+        "confidence": 0.5,
+        "sources": [
+          "yahoo_finance"
+        ],
+        "assumptions": [
+          "Market mark reflects current valuation of held securities"
+        ],
+        "limitations": [
+          "No holdings, weights, or cost basis provided; cannot compute portfolio metrics"
+        ],
+        "generated_at": "2026-07-31T17:27:43.559615+00:00"
+      },
+      {
+        "agent": "macro_economy",
+        "query": "comprehensive report",
+        "summary": "The verified FRED GDP observation is 31865.721 on 2026-01-01.",
+        "evidence": [
+          {
+            "source": "fred",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": "GDP",
+            "observation_date": "2026-01-01",
+            "value": 31865.721,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": null,
+        "confidence": 0.8,
+        "sources": [
+          "fred"
+        ],
+        "assumptions": [
+          "FRED series accurately represents the macroeconomic indicator"
+        ],
+        "limitations": [
+          "Single series observation; no trend, forecast, or cross-indicator analysis"
+        ],
+        "generated_at": "2026-07-31T17:27:43.559615+00:00"
+      },
+      {
+        "agent": "report_writer",
+        "query": "comprehensive report",
+        "summary": "Combined 7 specialist results; disagreements are preserved for review.",
+        "evidence": [
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Can Qualcomm secure a 'tiny slice' of the data center pie?",
+            "link": "https://finance.yahoo.com/video/can-qualcomm-secure-a-tiny-slice-of-the-data-center-pie-163320789.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "qualcomm"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Ford Just Delivered Bad News for Tesla Investors",
+            "link": "https://www.fool.com/investing/2026/07/29/ford-just-delivered-bad-news-for-tesla-investors/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": -1,
+            "entities": [
+              "ford",
+              "tesla"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple says UK App Store proposal amounts to price regulation",
+            "link": "https://finance.yahoo.com/technology/articles/apple-says-uk-app-store-154808227.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 0,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple Stock Could Close With $5 Trillion Market Value for First Time. Will It Get There?",
+            "link": "https://finance.yahoo.com/m/b3eef45b-5a17-3fdc-b1b7-ec54bf673ee0/apple-stock-could-close-with.html?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "rss",
+            "chunk_id": null,
+            "source_file": null,
+            "title": "Apple's New Leasing Plan Just Launched -- Here's the Stock That Could Be the Biggest Winner",
+            "link": "https://www.fool.com/investing/2026/07/29/apples-new-leasing-plan-just-launched-heres-the-st/?.tsrc=rss",
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": 1,
+            "entities": [
+              "apple"
+            ],
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "apple_2023_10k.htm",
+            "chunk_id": "apple_2023_10k.htm:163",
+            "source_file": "apple_2023_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "Indemnification Agreement between the Registrant and each director and executive officer of the Registrant. 10-Q 10.2 6/27/09 10.3* Apple Inc. Non-Employee Director Stock Plan, as amended November 9, 2021. 10-Q 10.1 12/25/21 10.4* Apple Inc. 2014 Employee Stock Plan, as amended and restated as of Oc",
+            "metrics": null
+          },
+          {
+            "source": "apple_2024_10k.htm",
+            "chunk_id": "apple_2024_10k.htm:166",
+            "source_file": "apple_2024_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "ck Plan, as amended November 9, 2021. 10-Q 10.1 12/25/21 10.4* Apple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, 2017. 10-K 10.8 9/30/17 10.5* Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 26, 2017. 10-K 10.20 9/30/",
+            "metrics": null
+          },
+          {
+            "source": "apple_2023_10k.htm",
+            "chunk_id": "apple_2023_10k.htm:164",
+            "source_file": "apple_2023_10k.htm",
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": "under 2014 Employee Stock Plan effective as of August 18, 2020. 10-K 10.16 9/26/20 10.12* Form of Performance Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020. 10-K 10.17 9/26/20 10.13* Form of CEO Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff",
+            "metrics": null
+          },
+          {
+            "source": "alpha_vantage",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "IBM",
+            "price": 227.55,
+            "trading_day": "2026-07-28",
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "models/risk_prediction/metrics.json",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": {
+              "baseline": {
+                "f1": 0.0
+              },
+              "metric": "F1/ROC-AUC",
+              "sample_count": 3,
+              "ship_decision": "hold: test labels are too few for a reliable risk model",
+              "target": {
+                "f1": 0.0,
+                "roc_auc": null
+              },
+              "task": "risk_prediction"
+            }
+          },
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": null,
+            "trading_day": null,
+            "first_close": 321.6600036621094,
+            "last_close": 341.3399963378906,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "yahoo_finance",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": "AAPL",
+            "price": 341.3399963378906,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": null,
+            "observation_date": null,
+            "value": null,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          },
+          {
+            "source": "fred",
+            "chunk_id": null,
+            "source_file": null,
+            "title": null,
+            "link": null,
+            "symbol": null,
+            "price": null,
+            "trading_day": null,
+            "first_close": null,
+            "last_close": null,
+            "series_id": "GDP",
+            "observation_date": "2026-01-01",
+            "value": 31865.721,
+            "sentiment_score": null,
+            "entities": null,
+            "excerpt": null,
+            "metrics": null
+          }
+        ],
+        "stance": "conflict",
+        "confidence": 0.4,
+        "sources": [
+          "alpha_vantage",
+          "fred",
+          "sec_filing",
+          "rss",
+          "ml_model",
+          "yahoo_finance"
+        ],
+        "assumptions": [
+          "Current market price reflects available information",
+          "Sentiment model trained on financial headlines generalizes to current news",
+          "Historical risk patterns persist; model features capture relevant risk factors",
+          "Market mark reflects current valuation of held securities",
+          "FRED series accurately represents the macroeconomic indicator",
+          "Filing chunks accurately represent the company's financial position",
+          "Price trend in sample period indicates near-term direction"
+        ],
+        "limitations": [
+          "Single series observation; no trend, forecast, or cross-indicator analysis",
+          "Single quote snapshot; no DCF, comparables, or intrinsic valuation performed",
+          "Sentiment model trained on limited labeled data; not production-ready",
+          "Only 5 bars in fixture; no volume, indicators, or multi-timeframe analysis",
+          "Test sample size of 3; F1=0.0; not suitable for production decisions",
+          "No holdings, weights, or cost basis provided; cannot compute portfolio metrics",
+          "Only 3 annual reports ingested; retrieval may miss context across sections"
+        ],
+        "generated_at": "2026-07-31T17:27:43.559615+00:00"
+      }
+    ],
+    "disagreements": [
+      {
+        "stances": [
+          "bullish",
+          "hold",
+          "insufficient_data",
+          "neutral",
+          "uptrend"
+        ],
+        "message": "Specialists disagree; no stance was silently discarded."
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "f1": 0.0
+  },
+  "label_source": "weak keyword labels from real RSS titles",
+  "metric": "weighted F1",
+  "sample_count": 20,
+  "ship_decision": "hold: labels are weakly supervised and require human-labeled news before production use",
+  "target": {
+    "f1": 0.25
+  },
+  "task": "sentiment"
+}
